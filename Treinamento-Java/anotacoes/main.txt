@@ -1,9 +1,0 @@
-public class main { - é o container principal do programa
-  public.static.void.main(String[] args) { - ponto de entrada: O computador procura essa linha para começar a ler o código
-    
-      System.out.println(); - função de saida
-      if () {} -Condição para algo acontecer
-      else {} - Condição para acontecer caso o requisito do if não seja atingido
-    }
-  }
-}
