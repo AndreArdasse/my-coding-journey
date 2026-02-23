@@ -1,6 +1,6 @@
 //treino de Lógica de Porgramação
 
-public class main {
+public class TreinoQuatro {
   public static void main(String[] args) {
     int salario = 2743;
     int horas = 192;
@@ -45,10 +45,10 @@ public class main {
     double resultado4 = (m1 + m2 + m3 + m4) / 4;
     resultado4 = Math.round (resultado4* 100.0) / 100.0;
     if (resultado4 < 7.0) {
-      System.out.println("Você foi reprovado com a média " + resultado4);
+      System.out.println("Você foi reprovado, estude mais na proxima ve");
       
     } else {
-      System.out.println("Você foi aprovado com a média " + resultado4);
+      System.out.println("Você foi aprovado, parabéns");
     }
 
     
@@ -66,7 +66,7 @@ Tabela de Código de Condições de Pagamento
 */
 
     int valorP = 349;
-    int op = 4;
+    int op = 2;
 
     if (op == 1) {
       double desconto1 = valorP * (15.0 / 100);
@@ -85,7 +85,7 @@ Tabela de Código de Condições de Pagamento
     if (op == 4) {
     double valorBaseParcela = valorP / 3;
     double parcelaComJuros = valorBaseParcela + (valorBaseParcela * (10.0/100));
-    System.out.println ("2x de R$ " + (int) valorBaseParcela + " + " + (int)parcelaComJuros);
+    System.out.println ("2x de R$ " + (int) valorBaseParcela + " e uma parcela de " + (int)parcelaComJuros);
     } else { 
       System.out.println("Opcão Inválida");
     }

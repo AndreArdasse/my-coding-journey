@@ -1,4 +1,4 @@
-public class main {
+public class TreinoUm {
 
     public static void main (String[] args) {
       

@@ -1,4 +1,4 @@
-public class main {
+public class TreinoDois {
   public static void main(String[] args) {
     int num1 = 47;
     int num2 = 37;
