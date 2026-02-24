@@ -41,6 +41,23 @@ public class TreinoCinco {
 
     System.out.println(isPsFiveCompravel);
 
+      // = += -= *= /= %=
 
+    double bonus = 1800;
+    bonus += 1000;
+    bonus -= 500;
+    bonus *= 2;
+    bonus /= 3;
+    bonus = Math.round(bonus * 10.0) / 10.0;
+    System.out.println(bonus);
+
+    //
+
+    int contador = 0;
+    contador += 1; // contador = contador 
+    contador++;
+    int contador2 = 0;
+    System.out.println(contador);
+    System.out.println(contador2++);
   }
 }
